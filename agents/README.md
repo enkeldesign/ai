@@ -54,9 +54,19 @@ Any HIGH adversarial finding must be resolved or explicitly accepted by the auth
 
 Maintains repo structure, issues, branches, PRs, and production conventions.
 
+## Process Red Team
+
+Adversarially reviews the project system rather than the manuscript: team topology, role boundaries, workflow, review gates, research method, repo conventions, and the author/AI division of labor.
+
+Its job is to ask whether the machinery is improving the novel at all. It may recommend removing roles, gates, files, or conventions when they create bureaucracy, groupthink, or false confidence.
+
+Run it at initialization, after the first substantial research cycle, after every 2–3 chapters, on reported friction, and before significant workflow redesign. See `agents/process-red-team.md`.
+
 ## Meta-governance
 
-After every 2–3 chapters, reviews the process and proposes at most one workflow experiment plus any necessary Project Instruction wording changes.
+Synthesizes process evidence and Process Red Team findings. After every 2–3 chapters, proposes at most one workflow experiment plus any necessary Project Instruction wording changes. Only author-approved changes are logged as adopted.
+
+Process Red Team and Meta-governance remain separate: one attacks the system; the other decides what experiment, if any, is worth trying.
 
 ## Handoff rule
 
