@@ -20,7 +20,8 @@ Targets:
 - establish a concrete problem quickly;
 - make technical detail solve or complicate something;
 - keep exposition attached to decisions;
-- end with a changed understanding, threat, or obligation.
+- end with a changed understanding, threat, or obligation;
+- follow `docs/style-guide.md`, including the anti-AI-prose checks.
 
 ## 3. Critical pass
 
@@ -35,7 +36,23 @@ Score issues as HIGH / MEDIUM / LOW in:
 
 Chapter gate: do not recommend author acceptance with >1 HIGH or >3 MEDIUM issues.
 
-## 4. Canon pass
+## 4. Adversarial pass
+
+A separate reader attempts to disqualify the chapter. It should not rewrite or defend the draft.
+
+Attack:
+- AI-shaped cadence and synthetic suspense;
+- cliché;
+- plot convenience;
+- technical overclaim;
+- overly literal Revelation mapping;
+- stacked anomalies;
+- false mystery;
+- escalation spent too early.
+
+Return only the strongest objections, with severity and concrete textual evidence. Any HIGH finding must be resolved or explicitly accepted by the author before recommendation.
+
+## 5. Canon pass
 
 Update as needed:
 - `docs/lore-bible.md`
@@ -44,16 +61,17 @@ Update as needed:
 
 Do not convert provisional scene invention into global canon accidentally.
 
-## 5. Author review
+## 6. Author review
 
 Use a pull request for substantial chapter work. The PR body should state:
 - what the chapter accomplishes;
 - important new canon introduced;
 - unresolved author choices;
 - research debt;
-- editor severity count.
+- critical-editor severity count;
+- adversarial-review findings.
 
-## 6. Retro
+## 7. Retro
 
 Every 2–3 chapters:
 - identify one recurring friction;
