@@ -32,5 +32,31 @@ Author feedback identified two correlated risks: synthetic/LLM-like prose patter
 **Who**
 Erik + SOL
 
-**Pending, not yet adopted**
-The initial Process Red Team recommends making only Critical Editor + Adversarial Reader mandatory manuscript passes and routing all specialists on demand. This remains a proposed workflow experiment until author approval.
+## 2026-10-06 — v0.3 lean review experiment approved
+
+**What changed**
+- Adopted, provisionally, the Process Red Team recommendation that the default manuscript path is `Scene brief → Draft → Critical Editor → Adversarial Reader → Author review`.
+- Worldbuilder, Research Orchestrator, Theology and other specialists are now routed only when a concrete risk requires them.
+- Added a rule that specialist work must answer a named problem rather than run as ceremony.
+- Added independence guardrail: Adversarial Reader should see the draft before the drafter's rationale when practical.
+- Meta-Governance process proposals should be challenged by Process Red Team before adoption.
+
+**Why**
+Prevent committee fiction, duplicated review work and process growth from outrunning manuscript production while preserving adversarial pressure where it matters.
+
+**Who**
+Erik approved the experiment; SOL implemented it.
+
+**Review condition**
+Reassess after 2–3 chapters or sooner if the lean cycle misses a material continuity, technical or theological failure.
+
+## 2026-10-06 — first research checkpoint
+
+**What happened**
+- Adversarial Reader reviewed prologue 0.2 and opened #5.
+- Research #3 validated the core blood-rain mechanism and was closed as completed.
+- Full research note added at `docs/research/blood-rain-opening.md`.
+- Follow-up worldbuilding dependencies (radar geometry and cooling architecture) moved to #6 rather than being silently canonized.
+
+**Process observation**
+The lean routing rule worked in this case: AR identified the actual failure mode first, then Research was invoked against a bounded technical question. No Theology or Worldbuilder pass was needed yet.
