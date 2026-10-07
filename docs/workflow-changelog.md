@@ -82,3 +82,20 @@ Freeze further prologue line polish. Current priority is disposition and epic de
 
 **Review condition**
 After the first chapter-level disposition exists for the Seals, ask whether the architecture-first layer is clarifying decisions or merely creating new ceremony.
+
+## 2026-10-07 — v0.5 Character Lead / Casting Director
+
+**What changed**
+- Added `agents/character-lead.md` and the Character Lead / Casting Director role to the core writing team.
+- The role owns ensemble architecture, POV strategy, archetypal function, relationship design, overlap/merge decisions, and epic-level character arcs.
+- Archetypes and TV Tropes vocabulary are explicitly diagnostic scaffolding, not templates to copy.
+- Added a bias toward the smallest cast that can carry the whole book; detailed biographies come only after ensemble architecture is accepted.
+
+**Why**
+The project is now choosing the human spine of the book. Character creation needs an owner distinct from lore maintenance and scene drafting so professions do not become personalities and POVs are not added merely for exposition access.
+
+**Who**
+Erik proposed the role; SOL implemented it.
+
+**Review condition**
+Reassess after the first ensemble matrix and POV recommendation. If the role duplicates Project Lead or Worldbuilder without improving character decisions, merge or remove it.
