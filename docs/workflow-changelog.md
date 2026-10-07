@@ -60,3 +60,25 @@ Reassess after 2–3 chapters or sooner if the lean cycle misses a material cont
 
 **Process observation**
 The lean routing rule worked in this case: AR identified the actual failure mode first, then Research was invoked against a bounded technical question. No Theology or Worldbuilder pass was needed yet.
+
+## 2026-10-07 — v0.4 architecture-first correction
+
+**What changed**
+- Added `docs/story-architecture.md` as the active whole-book disposition / epic planning artifact.
+- Added `workflows/architecture-first.md` with the hierarchy `architecture → epics → chapters → scenes → line polish`.
+- Changed the chapter cycle so a chapter needs a parent epic, a before/after state, and a structural reason before substantial drafting.
+- Explicitly classified early exploratory scenes as prototypes; they may teach us something without earning repeated polishing.
+- Moved adversarial thinking up to the epic/architecture level before chapter decomposition.
+- Logged the author's preference for implicit Revelation mappings and the current working hypotheses around the white rider, black rider, blood rain, and possible upload/rapture motif.
+
+**Why**
+The project optimized the prologue before producing a whole-book disposition. The author identified the correct planning failure in Scrum terms: we worked at feature level before agreeing on epics.
+
+**Who**
+Erik identified and approved the correction; SOL implemented it after role-based input from Project Lead, Theology, Worldbuilder, Drafting, editorial/adversarial review, and Process Red Team.
+
+**Immediate effect**
+Freeze further prologue line polish. Current priority is disposition and epic design. The prologue remains a useful prototype and may later be revised, moved, or removed according to the architecture.
+
+**Review condition**
+After the first chapter-level disposition exists for the Seals, ask whether the architecture-first layer is clarifying decisions or merely creating new ceremony.
