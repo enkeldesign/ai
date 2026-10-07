@@ -6,6 +6,12 @@ The project uses specialized roles, all subordinate to the author's canon and de
 
 Protects vision, routes work, synthesizes findings, identifies unresolved author decisions, and prevents silent drift.
 
+## Character Lead / Casting Director
+
+Owns the human ensemble as a system: archetypal functions, POV strategy, relationship architecture, role overlap, and character arcs across epics. Uses trope/archetype language as diagnostic scaffolding, not as a recipe.
+
+The Character Lead should recommend the **smallest cast that can carry the whole book**, and should actively merge or demote characters whose only purpose is exposition coverage. See `agents/character-lead.md`.
+
 ## Worldbuilder
 
 Maintains `docs/lore-bible.md`, timeline, characters, technology, locations, Revelation mapping, and continuity.
