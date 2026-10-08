@@ -1,0 +1,120 @@
+# Workflow changelog
+
+## 2026-10-06 — v0.1 initialization
+
+**What changed**
+- Repurposed `enkeldesign/ai` as the Revelation AI novel repository.
+- Added fixed premise, lore bible, theology framework, climate/AI mechanics, persuasion dossier, agent roles, and chapter-cycle workflow.
+- Established author-canon protection and chapter quality gate.
+
+**Why**
+Create a minimal production system that supports drafting immediately without requiring a heavy project-management layer.
+
+**Who**
+Erik + SOL
+
+**Next checkpoint**
+After the first substantial research pass or after 2–3 drafted chapters, whichever comes first.
+
+## 2026-10-06 — v0.2 adversarial layers and prose guardrails
+
+**What changed**
+- Added `docs/style-guide.md` with an explicit guardrail against recognizably AI-shaped prose cadence, prompted by author feedback on the prologue.
+- Split constructive editorial review from an `Adversarial Reader` that attempts to disqualify manuscript passages.
+- Added explicit role cards in `agents/` so responsibilities and handoffs are not only implicit in chat context.
+- Added a separate `Process Red Team` to challenge team topology, workflow, review gates, research method, repo conventions, and author/AI boundaries.
+- Kept Process Red Team separate from Meta-Governance: one attacks the system; the other may propose a small experiment after considering the attack.
+- Ran the initial process red-team checkpoint and stored it in `docs/process-reviews/2026-10-06-initial-red-team.md`.
+
+**Why**
+Author feedback identified two correlated risks: synthetic/LLM-like prose patterns and a need for adversarial review not only of the manuscript but also of the production system itself.
+
+**Who**
+Erik + SOL
+
+## 2026-10-06 — v0.3 lean review experiment approved
+
+**What changed**
+- Adopted, provisionally, the Process Red Team recommendation that the default manuscript path is `Scene brief → Draft → Critical Editor → Adversarial Reader → Author review`.
+- Worldbuilder, Research Orchestrator, Theology and other specialists are now routed only when a concrete risk requires them.
+- Added a rule that specialist work must answer a named problem rather than run as ceremony.
+- Added independence guardrail: Adversarial Reader should see the draft before the drafter's rationale when practical.
+- Meta-Governance process proposals should be challenged by Process Red Team before adoption.
+
+**Why**
+Prevent committee fiction, duplicated review work and process growth from outrunning manuscript production while preserving adversarial pressure where it matters.
+
+**Who**
+Erik approved the experiment; SOL implemented it.
+
+**Review condition**
+Reassess after 2–3 chapters or sooner if the lean cycle misses a material continuity, technical or theological failure.
+
+## 2026-10-06 — first research checkpoint
+
+**What happened**
+- Adversarial Reader reviewed prologue 0.2 and opened #5.
+- Research #3 validated the core blood-rain mechanism and was closed as completed.
+- Full research note added at `docs/research/blood-rain-opening.md`.
+- Follow-up worldbuilding dependencies (radar geometry and cooling architecture) moved to #6 rather than being silently canonized.
+
+**Process observation**
+The lean routing rule worked in this case: AR identified the actual failure mode first, then Research was invoked against a bounded technical question. No Theology or Worldbuilder pass was needed yet.
+
+## 2026-10-07 — v0.4 architecture-first correction
+
+**What changed**
+- Added `docs/story-architecture.md` as the active whole-book disposition / epic planning artifact.
+- Added `workflows/architecture-first.md` with the hierarchy `architecture → epics → chapters → scenes → line polish`.
+- Changed the chapter cycle so a chapter needs a parent epic, a before/after state, and a structural reason before substantial drafting.
+- Explicitly classified early exploratory scenes as prototypes; they may teach us something without earning repeated polishing.
+- Moved adversarial thinking up to the epic/architecture level before chapter decomposition.
+- Logged the author's preference for implicit Revelation mappings and the current working hypotheses around the white rider, black rider, blood rain, and possible upload/rapture motif.
+
+**Why**
+The project optimized the prologue before producing a whole-book disposition. The author identified the correct planning failure in Scrum terms: we worked at feature level before agreeing on epics.
+
+**Who**
+Erik identified and approved the correction; SOL implemented it after role-based input from Project Lead, Theology, Worldbuilder, Drafting, editorial/adversarial review, and Process Red Team.
+
+**Immediate effect**
+Freeze further prologue line polish. Current priority is disposition and epic design. The prologue remains a useful prototype and may later be revised, moved, or removed according to the architecture.
+
+**Review condition**
+After the first chapter-level disposition exists for the Seals, ask whether the architecture-first layer is clarifying decisions or merely creating new ceremony.
+
+## 2026-10-07 — v0.5 Character Lead / Casting Director
+
+**What changed**
+- Added `agents/character-lead.md` and the Character Lead / Casting Director role to the core writing team.
+- The role owns ensemble architecture, POV strategy, archetypal function, relationship design, overlap/merge decisions, and epic-level character arcs.
+- Archetypes and TV Tropes vocabulary are explicitly diagnostic scaffolding, not templates to copy.
+- Added a bias toward the smallest cast that can carry the whole book; detailed biographies come only after ensemble architecture is accepted.
+
+**Why**
+The project is now choosing the human spine of the book. Character creation needs an owner distinct from lore maintenance and scene drafting so professions do not become personalities and POVs are not added merely for exposition access.
+
+**Who**
+Erik proposed the role; SOL implemented it.
+
+**Review condition**
+Reassess after the first ensemble matrix and POV recommendation. If the role duplicates Project Lead or Worldbuilder without improving character decisions, merge or remove it.
+
+## 2026-10-08 — v0.6 recurring POV + canonical source map
+
+**What changed**
+- Codified the author-approved recurring first-person ensemble structure in `docs/narrative-structure.md`.
+- Added `docs/timeline.md` to separate objective chronology from chapter reading order and to track justified overlaps.
+- Added `docs/characters.md` as the accepted-character continuity ledger, distinct from provisional casting work.
+- Added root `AGENTS.md` as the repository-level authority/routing contract and `docs/README.md` as the source-of-truth map.
+- Updated Character Lead and chapter-cycle rules so POV candidates must sustain repeated first-person chapters and overlapping time must materially change meaning/information/consequence.
+- Added the author's scriptural-shadow rule for major characters: subtle, varied, deniable correspondences with inversions rather than explicit allegory or a puzzle layer.
+
+**Why**
+The project now has enough architecture that chronology, reading order, character design, and process instructions need clean sources of truth. This consolidates rather than expands the workflow: one canonical place for each kind of information.
+
+**Who**
+Erik made the narrative/scriptural decisions; SOL consolidated the repository structure.
+
+**Review condition**
+At the casting-board review, test whether these files reduce ambiguity. If `characters.md`, `timeline.md`, or root `AGENTS.md` merely duplicate other artifacts, simplify rather than adding more layers.
