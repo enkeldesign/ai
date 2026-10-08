@@ -6,8 +6,10 @@ Do not enter the chapter cycle merely because a scene idea is attractive.
 
 Before substantial drafting, the chapter must have:
 - a parent epic in `docs/story-architecture.md`;
+- a recurring POV character or an explicitly approved exception;
 - a clear before/after story state;
-- a reason it belongs at this point in the book.
+- a place in the objective chronology in `docs/timeline.md`;
+- a reason it belongs at this point in the reading order.
 
 Use `workflows/architecture-first.md` when those are unresolved.
 
@@ -26,8 +28,12 @@ This is an experiment, not permanent doctrine; Process Red Team and Meta-Governa
 ## 1. Chapter disposition
 
 Before scene work, define:
-- parent epic;
+- parent epic / movement;
 - POV character;
+- chapter name (normally POV character name);
+- objective story-time range and relevant event IDs from `docs/timeline.md`;
+- whether the chapter overlaps earlier reading-order material;
+- if overlapping, what new causality, consequence, information or interpretation justifies the replay;
 - narrative function;
 - world/character state entering;
 - irreversible change or discovery;
@@ -35,7 +41,7 @@ Before scene work, define:
 - research debt;
 - why this chapter belongs here rather than elsewhere.
 
-If the disposition is unclear, return to the epic instead of drafting harder.
+If the disposition is unclear, return to the epic or character architecture instead of drafting harder.
 
 ## 2. Scene brief
 
@@ -51,14 +57,16 @@ Route specialist work here only if a real risk is already visible.
 
 ## 3. Draft
 
-Draft for momentum first. Avoid stopping to explain the entire world.
+Draft in first person from the named POV unless the author has approved an exception.
 
 Targets:
+- preserve the POV's distinct cognition, not merely a different vocabulary;
 - enter late;
 - establish a concrete problem quickly;
 - make technical detail solve or complicate something;
 - keep exposition attached to decisions;
-- end with a changed understanding, threat, or obligation;
+- use broadcasts, alerts, reports, conversations and aftermath as natural handoffs between POV chapters rather than replaying events without new value;
+- end with a changed understanding, threat, relationship, or obligation;
 - follow `docs/style-guide.md`, including the anti-AI-prose checks.
 
 ## 4. Critical pass
@@ -66,8 +74,9 @@ Targets:
 Score issues as HIGH / MEDIUM / LOW in:
 - pacing;
 - clarity;
-- continuity;
+- continuity / chronology;
 - character motivation;
+- first-person voice differentiation;
 - technical credibility;
 - theological/mystery integrity;
 - prose/voice.
@@ -86,6 +95,8 @@ It should not rewrite or defend the draft.
 
 Attack:
 - AI-shaped cadence and synthetic suspense;
+- interchangeable POV voices;
+- overlap that merely repeats an exciting event;
 - cliché;
 - plot convenience;
 - technical overclaim;
@@ -100,17 +111,20 @@ Return only the strongest objections, with severity and concrete textual evidenc
 ## 6. Specialist routing when needed
 
 Possible routes include:
-- Worldbuilder — continuity, chronology, geography, character facts;
+- Character Lead — POV viability, arc, relationship, scriptural shadow, redundancy;
+- Worldbuilder — continuity, chronology, geography, accepted character facts;
 - Research Orchestrator — empirical/technical claims that matter to credibility;
 - Theology — Revelation mapping or AI-as-God ambiguity;
 - Process Red Team — workflow/team failure, not manuscript prose.
 
 A specialist pass must answer a named problem. “Run everything” is not a valid reason.
 
-## 7. Canon pass
+## 7. Canon / continuity pass
 
 Update as needed:
 - `docs/lore-bible.md`
+- `docs/characters.md`
+- `docs/timeline.md`
 - `docs/decisions-log.md`
 - technical dossiers
 
@@ -120,6 +134,8 @@ Do not convert provisional scene invention into global canon accidentally.
 
 Use a pull request for substantial chapter work. The PR body should state:
 - parent epic and chapter function;
+- POV and objective story-time range;
+- overlap/replay justification, if any;
 - what the chapter accomplishes;
 - important new canon introduced;
 - unresolved author choices;

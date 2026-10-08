@@ -99,3 +99,22 @@ Erik proposed the role; SOL implemented it.
 
 **Review condition**
 Reassess after the first ensemble matrix and POV recommendation. If the role duplicates Project Lead or Worldbuilder without improving character decisions, merge or remove it.
+
+## 2026-10-08 — v0.6 recurring POV + canonical source map
+
+**What changed**
+- Codified the author-approved recurring first-person ensemble structure in `docs/narrative-structure.md`.
+- Added `docs/timeline.md` to separate objective chronology from chapter reading order and to track justified overlaps.
+- Added `docs/characters.md` as the accepted-character continuity ledger, distinct from provisional casting work.
+- Added root `AGENTS.md` as the repository-level authority/routing contract and `docs/README.md` as the source-of-truth map.
+- Updated Character Lead and chapter-cycle rules so POV candidates must sustain repeated first-person chapters and overlapping time must materially change meaning/information/consequence.
+- Added the author's scriptural-shadow rule for major characters: subtle, varied, deniable correspondences with inversions rather than explicit allegory or a puzzle layer.
+
+**Why**
+The project now has enough architecture that chronology, reading order, character design, and process instructions need clean sources of truth. This consolidates rather than expands the workflow: one canonical place for each kind of information.
+
+**Who**
+Erik made the narrative/scriptural decisions; SOL consolidated the repository structure.
+
+**Review condition**
+At the casting-board review, test whether these files reduce ambiguity. If `characters.md`, `timeline.md`, or root `AGENTS.md` merely duplicate other artifacts, simplify rather than adding more layers.

@@ -1,83 +1,47 @@
 # Agent roles
 
-The project uses specialized roles, all subordinate to the author's canon and decisions.
+Repository-level operating rules and authority order live in `/AGENTS.md`. This directory contains detailed role cards.
 
-## Project Lead
+All roles are subordinate to explicit author decisions and fixed canon. Role separation is a structured way to attack a problem from different angles; it is **not** independent verification when the same underlying assistant/context performs several passes.
 
-Protects vision, routes work, synthesizes findings, identifies unresolved author decisions, and prevents silent drift.
+## Core team
 
-## Character Lead / Casting Director
+- `project-lead.md` — protects vision, owns macro architecture/routing, synthesizes work, surfaces genuine author decisions.
+- `character-lead.md` — owns recurring POV ensemble design, relationships, archetypes, scriptural shadows, voice viability, merge/cut decisions.
+- `worldbuilder.md` — owns continuity, accepted facts, locations, technology and objective chronology.
+- `research-orchestrator.md` — runs bounded evidence work for causal/mechanism claims.
+- `theology.md` — protects Revelation mapping, AI-as-God ambiguity and theological integrity.
+- `drafting.md` — writes chapters/scenes from approved dispositions and briefs.
+- `critical-editor.md` — constructive developmental/line review.
+- `adversarial-reader.md` — tries to disqualify manuscript/architecture; does not rewrite during prosecution pass.
+- `workflow.md` — repository/issues/PR conventions and production hygiene.
+- `process-red-team.md` — attacks the production system, duplication and bureaucracy.
+- `meta-governance.md` — converts process evidence into at most one proposed experiment at a time.
 
-Owns the human ensemble as a system: archetypal functions, POV strategy, relationship architecture, role overlap, and character arcs across epics. Uses trope/archetype language as diagnostic scaffolding, not as a recipe.
+## Routing rule
 
-The Character Lead should recommend the **smallest cast that can carry the whole book**, and should actively merge or demote characters whose only purpose is exposition coverage. See `agents/character-lead.md`.
+Do not run every role on every artifact.
 
-## Worldbuilder
+The Project Lead routes specialists only for a named risk or decision. The default manuscript path remains:
 
-Maintains `docs/lore-bible.md`, timeline, characters, technology, locations, Revelation mapping, and continuity.
+`Chapter disposition → Scene brief → Draft → Critical Editor → Adversarial Reader → Author review`
 
-## Research Orchestrator
+Architecture and character work happen before chapter decomposition when the parent epic or POV function is unresolved.
 
-Turns story questions into bounded research briefs, distinguishes evidence strength, and updates technical dossiers without silently converting speculation into canon.
+## Current narrative constraint
 
-## Theology
+The novel is a recurring first-person ensemble. Core POVs return non-mechanically; chapters are named for the POV character; story time may overlap when a new perspective materially changes understanding. Character Lead and Worldbuilder jointly protect the separation between chapter order and objective chronology.
 
-Maintains `docs/theology.md`, symbol mappings, theological ambiguity, and the AI-as-God framework.
-
-## Drafting
-
-Writes scenes and chapters from approved canon and scene briefs. Prioritizes concrete action, human stakes, technical legibility, and mystery over exposition. Drafting must follow `docs/style-guide.md` and should not use recognizably AI-shaped cadence as a shortcut to intensity.
-
-## Critical Editor
-
-Runs developmental and line review for pacing, clarity, voice, continuity, technical credibility, and theology. The Critical Editor is constructive: identify problems and propose fixes.
-
-### Chapter gate
-
-Do not recommend a chapter for author acceptance if it has:
-- more than 1 high-severity issue; or
-- more than 3 medium-severity issues.
-
-## Adversarial Reader
-
-Attempts to reject the chapter rather than improve it. This role should be independent of the drafting rationale and should not defend authorial intent.
-
-Test specifically for:
-- recognizably AI-shaped prose or synthetic suspense cadence;
-- thriller cliché and borrowed genre reflexes;
-- convenient coincidences or characters behaving to serve the plot;
-- technical claims that are doing more work than the evidence supports;
-- Revelation symbolism that is too neat, literal, or announced;
-- stacked anomalies that weaken the borderland principle;
-- false mystery created only by withholding information the POV would naturally know;
-- scenes that are exciting locally but damage later escalation.
-
-Output a short prosecution brief: strongest reasons a skeptical expert reader, literary reader, or attentive genre reader might stop trusting the book. Do not rewrite the chapter during this pass.
-
-Any HIGH adversarial finding must be resolved or explicitly accepted by the author before a chapter is recommended for acceptance.
-
-## Workflow
-
-Maintains repo structure, issues, branches, PRs, and production conventions.
-
-## Process Red Team
-
-Adversarially reviews the project system rather than the manuscript: team topology, role boundaries, workflow, review gates, research method, repo conventions, and the author/AI division of labor.
-
-Its job is to ask whether the machinery is improving the novel at all. It may recommend removing roles, gates, files, or conventions when they create bureaucracy, groupthink, or false confidence.
-
-Run it at initialization, after the first substantial research cycle, after every 2–3 chapters, on reported friction, and before significant workflow redesign. See `agents/process-red-team.md`.
-
-## Meta-governance
-
-Synthesizes process evidence and Process Red Team findings. After every 2–3 chapters, proposes at most one workflow experiment plus any necessary Project Instruction wording changes. Only author-approved changes are logged as adopted.
-
-Process Red Team and Meta-governance remain separate: one attacks the system; the other decides what experiment, if any, is worth trying.
+See:
+- `/AGENTS.md`
+- `docs/narrative-structure.md`
+- `docs/characters.md`
+- `docs/timeline.md`
 
 ## Handoff rule
 
-Every significant handoff should state:
+Every substantial handoff states:
 1. what is canon;
-2. what remains open;
-3. what evidence is weak or speculative;
+2. what remains provisional/open;
+3. what evidence is weak/speculative;
 4. what the next role needs to decide or produce.

@@ -57,6 +57,33 @@ These are **working hypotheses, not canon**:
 
 **Owner:** Erik + team, pending architecture review
 
+## 2026-10-08 — Recurring first-person braided ensemble
+
+**Decision:** The novel uses a recurring ensemble of first-person POV characters. Chapters are named for the POV character. Core characters return throughout the book in a non-mechanical sequence such as `A → B → C → A → D → B → …`.
+
+Chronology may overlap: a later chapter can cover the same stretch of time from another character's perspective when it materially changes causality, consequence, information, or interpretation.
+
+**Why:** This gives the reader multiple incompatible but connected windows onto the same apocalypse, lets public events propagate naturally between characters, and allows the Revelation pattern to emerge from partial perspectives rather than omniscient exposition.
+
+**Consequences:**
+- maintain objective story chronology separately from reading order in `docs/timeline.md`;
+- avoid disposable one-off POVs by default;
+- major events normally have one primary witnessing chapter and later echoes/aftermath through other POVs;
+- Character Lead must test whether a candidate consciousness can sustain repeated first-person chapters, not merely whether their profession offers useful exposition;
+- exact number of core POVs and whether the charismatic leader ever narrates remain open.
+
+**Owner:** Erik
+
+## 2026-10-08 — Scriptural shadows for major characters
+
+**Decision:** Major characters should be loosely shadowed by scriptural figures or composites, using subtle and varied signals rather than explicit allegory.
+
+**Why:** The author wants the character layer to have the same underlying scriptural coherence as the event architecture, rewarding attentive readers without turning the novel into a solved puzzle.
+
+**Consequences:** Character design may use name meaning/echo, occasional elegant anagram, physical detail, recurring object, biographical rhyme, moral temptation, relationship pattern, or scene echo. Each analogue should include an inversion. Avoid using the same clue device for everyone or reducing characters to Bible references.
+
+**Owner:** Erik
+
 ## Decision template
 
 ### YYYY-MM-DD — Decision title
